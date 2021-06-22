@@ -4,7 +4,7 @@
     }
 }) */
 
-setInterval(clockUpdate, 500);
+setInterval(clockUpdate, 150);
 
 function clockUpdate(id) {
     const now = moment().format("HH:mm:ss")
